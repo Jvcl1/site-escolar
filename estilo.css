@@ -1,0 +1,8 @@
+.fundo_superior{
+    background-color: red;
+    width: 750;
+    height: 1000;
+    background: -moz-linear-gradient( to botttom red, rgb(39, 29, 29));
+    text-align: center;
+    
+}
