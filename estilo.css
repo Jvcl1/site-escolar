@@ -1,8 +1,37 @@
 .fundo_superior{
     background-color: red;
-    width: 750;
-    height: 1000;
-    background: -moz-linear-gradient( to botttom red, rgb(39, 29, 29));
+    width: 1850px;
+    height: 150px;
+    background:linear-gradient(to bottom ,red, #d1d1d1);
     text-align: center;
-    
+    border:0px flex black;
+    border-radius:20px;
+}
+.meio{
+    border:black solid 0px;
+    text-align:center;
+    margin-top:50px;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius:20px;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 20px 20px 20px rgb(134,134,134);
+}
+.letra{
+    display:inline-block;
+    margin:15px;
+}
+.agenda{
+    display:block;
+    text-align:center;
+    border:black solid 0px;
+    margin:1px black solid;
+    margin-left:100px;
+    margin-right: 1250px;
+    border-radius:20px;
+    box-shadow:20px 20px 20px rgb(134, 134, 134);
+    background-color: white;
+}
+.fundo{
+    background-color:rgb(14,14,14);
 }

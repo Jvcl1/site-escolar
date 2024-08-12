@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="estilo.css">
     </head>
-    <body class="page" style="font-family: sans-serif;">
+    <body class="fundo" style="font-family: sans-serif;">
         <div>
             <div class="fundo_superior">
                 <h1>Bem Vindo, (user)</h1>
@@ -53,12 +53,12 @@
                     </div>
                 </td>
                 <th>
-                    <p id="month">/</p>
+                    <p id="month"></p>
                     <p id="day"></p>
                 </th>
             </table>
             <script>
-                const d =new Date("08-09")
+                const d = new Date("2024-08-11");
                 document.getElementById("month").innerHTML = d.getMonth();
                 document.getElementById("day").innerHTML = d.getDay();
             </script>
